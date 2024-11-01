@@ -137,7 +137,7 @@ VALUES
 INSERT INTO osc_physrisk_scenarios.hazard
 	(std_id, std_slug, std_name, std_name_display, std_description_full, std_description_short, std_tags, std_datetime_utc_created, std_creator_user_id, std_datetime_utc_last_modified, std_last_modifier_user_id, std_is_deleted, std_deleter_user_id, std_datetime_utc_deleted, std_culture, std_checksum, std_seq_num, std_translated_from_id, std_is_active, std_is_published, std_publisher_id, std_datetime_utc_published)
 VALUES 
-	('d08db675-ee1e-48fe-b9e1-b0da27de8f2b', 'en-climate-hazard-type-chronic-heat', 'Chronic Heat', 'Chronic Heat', 'Chronic Heat', 'Chronic Heat', '{ "key1":"value1", "key2":"value2"}','2024-07-15T00:00:01Z',1,'2024-07-15T00:00:01Z',1,'n',NULL,NULL, 'en', 'std_checksum',1, NULL,'y','y',1,'2024-07-15T00:00:01Z')
+	('d08db675-ee1e-48fe-b9e1-b0da27de8f2b', 'en-climate-hazard-type-extreme-heat', 'Extreme or Chronic Heat', 'Extreme or Chronic Heat', 'Extreme or Chronic Heat', 'Extreme or Chronic Heat', '{ "key1":"value1", "key2":"value2"}','2024-07-15T00:00:01Z',1,'2024-07-15T00:00:01Z',1,'n',NULL,NULL, 'en', 'std_checksum',1, NULL,'y','y',1,'2024-07-15T00:00:01Z')
 ;
 INSERT INTO osc_physrisk_scenarios.hazard
 	(std_id, std_slug, std_name, std_name_display, std_description_full, std_description_short, std_tags, std_datetime_utc_created, std_creator_user_id, std_datetime_utc_last_modified, std_last_modifier_user_id, std_is_deleted, std_deleter_user_id, std_datetime_utc_deleted, std_culture, std_checksum, std_seq_num, std_translated_from_id, std_is_active, std_is_published, std_publisher_id, std_datetime_utc_published)
@@ -173,6 +173,21 @@ INSERT INTO osc_physrisk_scenarios.hazard
 	(std_id, std_slug, std_name, std_name_display, std_description_full, std_description_short, std_tags, std_datetime_utc_created, std_creator_user_id, std_datetime_utc_last_modified, std_last_modifier_user_id, std_is_deleted, std_deleter_user_id, std_datetime_utc_deleted, std_culture, std_checksum, std_seq_num, std_translated_from_id, std_is_active, std_is_published, std_publisher_id, std_datetime_utc_published)
 VALUES 
 	('4441cf3b-1460-4131-aff6-b51bf01cd084', 'en-climate-hazard-type-subsidence','subsidence', 'subsidence', 'subsidence', 'subsidence', '{ "key1":"value1", "key2":"value2"}','2024-07-15T00:00:01Z',1,'2024-07-15T00:00:01Z',1,'n',NULL,NULL, 'en', 'std_checksum',1, NULL,'y','y',1,'2024-07-15T00:00:01Z')
+;
+INSERT INTO osc_physrisk_scenarios.hazard
+	(std_id, std_slug, std_name, std_name_display, std_description_full, std_description_short, std_tags, std_datetime_utc_created, std_creator_user_id, std_datetime_utc_last_modified, std_last_modifier_user_id, std_is_deleted, std_deleter_user_id, std_datetime_utc_deleted, std_culture, std_checksum, std_seq_num, std_translated_from_id, std_is_active, std_is_published, std_publisher_id, std_datetime_utc_published)
+VALUES 
+	('3fea6f81-028a-4fdc-aed6-de8a1349b83f', 'en-climate-hazard-type-extreme-cold', 'Extreme or Chronic Cold', 'Extreme or Chronic Cold', 'Extreme or Chronic Cold', 'Extreme or Chronic Cold', '{ "key1":"value1", "key2":"value2"}','2024-07-15T00:00:01Z',1,'2024-07-15T00:00:01Z',1,'n',NULL,NULL, 'en', 'std_checksum',1, NULL,'y','y',1,'2024-11-01T00:00:01Z')
+;
+INSERT INTO osc_physrisk_scenarios.hazard
+	(std_id, std_slug, std_name, std_name_display, std_description_full, std_description_short, std_tags, std_datetime_utc_created, std_creator_user_id, std_datetime_utc_last_modified, std_last_modifier_user_id, std_is_deleted, std_deleter_user_id, std_datetime_utc_deleted, std_culture, std_checksum, std_seq_num, std_translated_from_id, std_is_active, std_is_published, std_publisher_id, std_datetime_utc_published)
+VALUES 
+	('de71bd18-85b5-4596-8ff0-bc88bf400232', 'en-climate-hazard-type-snow-ice-loading', 'Snow or Ice Loading', 'Snow or Ice Loading', 'Snow or Ice Loading', 'Snow or Ice Loading', '{ "key1":"value1", "key2":"value2"}','2024-07-15T00:00:01Z',1,'2024-07-15T00:00:01Z',1,'n',NULL,NULL, 'en', 'std_checksum',1, NULL,'y','y',1,'2024-11-01T00:00:01Z')
+;
+INSERT INTO osc_physrisk_scenarios.hazard
+	(std_id, std_slug, std_name, std_name_display, std_description_full, std_description_short, std_tags, std_datetime_utc_created, std_creator_user_id, std_datetime_utc_last_modified, std_last_modifier_user_id, std_is_deleted, std_deleter_user_id, std_datetime_utc_deleted, std_culture, std_checksum, std_seq_num, std_translated_from_id, std_is_active, std_is_published, std_publisher_id, std_datetime_utc_published)
+VALUES 
+	('42851fdf-6acd-43f8-b220-a541f73402c0', 'en-climate-hazard-type-thaw-thermafrost', 'Thawing Permafrost', 'Thawing Permafrost', 'Thawing Permafrost', 'Thawing Permafrost', '{ "key1":"value1", "key2":"value2"}','2024-07-15T00:00:01Z',1,'2024-07-15T00:00:01Z',1,'n',NULL,NULL, 'en', 'std_checksum',1, NULL,'y','y',1,'2024-11-01T00:00:01Z')
 ;
 INSERT INTO osc_physrisk_scenarios.hazard_indicator
 	(std_id, std_name, std_name_display, std_description_full, std_description_short, std_tags, std_datetime_utc_created, std_creator_user_id, std_datetime_utc_last_modified, std_last_modifier_user_id, std_is_deleted, std_deleter_user_id, std_datetime_utc_deleted, std_culture, std_checksum, std_seq_num, std_translated_from_id, std_is_active, std_is_published, std_publisher_id, std_datetime_utc_published, hazard_id)
@@ -1203,7 +1218,7 @@ FROM
 WHERE haz.std_id = '28a095cd-4cde-40a1-90d9-cbb0ca673c06'
 ;
 
--- VIEW CHRONIC HEAT HAZARD INDICATORS
+-- VIEW Extreme or Chronic Heat HAZARD INDICATORS
 SELECT	*
 FROM
 	 osc_physrisk_scenarios.hazard haz INNER JOIN osc_physrisk_scenarios.hazard_indicator hi ON hi.hazard_id = haz.std_id
